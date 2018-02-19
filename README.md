@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## CODE Gaming Organsiation
 
-You can use the [editor on GitHub](https://github.com/CODEGameDev/CODEGamingOrganisation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is the page of CO:GO. We are students of CODE University of Applied Science in Berlin, and we :heart: games.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Our goal here is to work on mods, addons and maybe even full-fledge games -- of course all with publicly available source codes and a free license, because we :heart: copyleft.
 
-### Markdown
+## Current Projects
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### CO:GO :heart: Garry's Mod
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CODEGameDev/CODEGamingOrganisation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+We have an active Garry's Mod server running, and we are eagerly creating addons for it.
+Our current self-made addons are:
+- [CODE Soundgun](https://github.com/CODEGameDev/CODE-Soundgun)
+- [Walk-Forcer](https://github.com/CODEGameDev/Walk-Forcer)
+- [Russian Roulette](https://github.com/CODEGameDev/Russian-Roulette)
+With even more in the conception stage!
