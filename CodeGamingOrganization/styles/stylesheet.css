@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'PRIMETIME';
+    src: url("../fonts/primetime.ttf");
+}
+
+p {
+    font-family: PRIMETIME;
+    color: white;
+}
+
+#navbar {
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    position: absolute;
+    z-index: 999;
+    background-color: #282B30;
+    opacity: 0.8;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 100px auto auto auto;
+    grid-template-rows: 100%;
+}
+
+#navbar-left {
+    float: left;
+    grid-column-start: 2;
+    align-self: center;
+}
+
+#navbar-right {
+    float: right;
+    grid-column-start: 3;
+    align-self: center;
+}
+
+#navbar a {
+    font-family: PRIMETIME;
+    font-size: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+#table-1-section-1 {
+    background: url("../img/pubg.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-filter: blur(7px);
+    filter: blur(7px);
+    position: absolute;
+}
+
+#table-1-section-2 {
+    text-align: center;
+    position: relative
+}
+
+div img {
+    width: 1600px;
+    height: auto;
+}
+
+#logo {
+    z-index: 10;
+    width: 70%;
+}
