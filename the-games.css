@@ -1,0 +1,131 @@
+#table-3-section1 {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr 1fr 1fr 0.2fr;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 0.2fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.game-title {
+    font-family: "Arial Black", bold, serif;
+}
+
+#table-3-section1 img {
+    width: 75%;
+}
+
+#table-3-section1 p {
+    margin: 0;
+}
+
+#game1 {
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    justify-self: center;
+}
+
+#game2 {
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    justify-self: center;
+}
+
+#game3 {
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 4;
+    justify-self: center;
+}
+
+#game4 {
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 5;
+    justify-self: center;
+}
+
+#game5 {
+    text-align: center;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    justify-self: center;
+}
+
+#game6 {
+    text-align: center;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    justify-self: center;
+}
+
+#game7 {
+    text-align: center;
+    grid-column-start: 3;
+    grid-row-start: 4;
+    justify-self: center;
+}
+
+#game8 {
+    text-align: center;
+    grid-column-start: 3;
+    grid-row-start: 5;
+    justify-self: center;
+}
+
+#game9 {
+    text-align: center;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    justify-self: center;
+}
+
+#game10 {
+    text-align: center;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    justify-self: center;
+}
+
+#game11 {
+    text-align: center;
+    grid-column-start: 4;
+    grid-row-start: 4;
+    justify-self: center;
+}
+
+#game12 {
+    text-align: center;
+    grid-column-start: 4;
+    grid-row-start: 5;
+    justify-self: center;
+}
+
+#game13 {
+    text-align: center;
+    grid-column-start: 5;
+    grid-row-start: 2;
+    justify-self: center;
+}
+
+#game14 {
+    text-align: center;
+    grid-column-start: 5;
+    grid-row-start: 3;
+    justify-self: center;
+}
+
+#game15 {
+    text-align: center;
+    grid-column-start: 5;
+    grid-row-start: 4;
+    justify-self: center;
+}
+
+#game16 {
+    text-align: center;
+    grid-column-start: 5;
+    grid-row-start: 5;
+    justify-self: center;
+}

@@ -1,0 +1,125 @@
+.divider {
+    position: relative;
+    border-right:1px solid #fff;
+    margin-right: 50%;
+    height: 100%;
+}
+
+.footer-img {
+    width: 10%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#first-divider {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#second-divider {
+    grid-column-start: 7;
+    grid-row-start: 1;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#third-divider {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#fourth-divider {
+    grid-column-start: 7;
+    grid-row-start: 2;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#fifth-divider {
+    grid-column-start: 5;
+    grid-row-start: 2;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#footer-wrapper {
+    position: absolute;
+    background-color: #282B30;
+    background-image: -webkit-linear-gradient( #282B30 0%, #282B30 70%, #000000 70%, #000000 70%);
+    background-image: linear-gradient( #282B30 0%, #282B30 70%, #000000 70%, #000000 70%);
+    padding: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 0.1fr 1.5fr 0.2fr 1fr 0.2fr 1fr 0.2fr 1.5fr 0.1fr;
+    grid-template-rows: 1fr 0.44fr;
+}
+
+#lower-footer {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    align-self: center;
+    text-align: center;
+}
+
+#lower-footer p {
+    margin: 10px 0 0 0;
+}
+
+#left-footer-item {
+    grid-column-start: 2;
+    align-self: center;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#contact {
+    grid-column-start: 4;
+    align-self: center;
+    justify-self: center;
+}
+
+#contact p {
+    font-family: "Arial Black", bold, serif;
+}
+
+#map {
+    grid-column-start: 6;
+    margin: 5%;
+    border: 2px solid #fff;
+}
+
+#seo {
+    grid-column-start: 8;
+    align-self: center;
+    justify-self: center;
+}
+
+#login-link {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    align-self: center;
+    justify-self: center;
+    cursor: pointer;
+}
+
+#disclaimer-link {
+    grid-column-start: 6;
+    grid-row-start: 2;
+    align-self: center;
+    justify-self: center;
+    cursor: pointer;
+}
+
+#policy-link {
+    grid-column-start: 8;
+    grid-row-start: 2;
+    align-self: center;
+    justify-self: center;
+    cursor: pointer;
+}

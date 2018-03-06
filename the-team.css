@@ -1,0 +1,60 @@
+#table-2-section-1 {
+    display: grid;
+    grid-template-columns: 100px 1fr 50px 1fr 50px 1fr 100px;
+    grid-template-rows: 150px 1fr 0.2fr 0.4fr auto  0.2fr 80px;
+}
+
+.social {
+    width: 20%;
+    display: inline;
+    margin: 5px;
+}
+
+#social-hooks1 {
+    width: fit-content;
+    grid-column-start: 2;
+    grid-row-start: 4;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+#social-hooks2 {
+    grid-column-start: 4;
+    grid-row-start: 4;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+#social-hooks3 {
+    grid-column-start: 6;
+    grid-row-start: 4;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+#darian {
+    width: 60%;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+#martin {
+    width: 60%;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+#david {
+    width: 60%;
+    grid-column-start: 6;
+    grid-row-start: 2;
+    align-self: center;
+    justify-self: center;
+}

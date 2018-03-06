@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'PRIMETIME';
+    src: url("../fonts/primetime.ttf");
+}
+
+@keyframes increase {
+    100% {
+        width: 300px;
+    }
+}
+
+p {
+    font-family: PRIMETIME, serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar-right #menu a {
+    font-size: 1.3em;
+}
+
+#navbar {
+    width: 100%;
+    height: 80px;
+    top: 0;
+    position: absolute;
+    z-index: 999;
+    background-color: #282B30;
+    opacity: 0.9;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100%;
+}
+
+#logo-div {
+    justify-self: right;
+    grid-column-start: 1;
+    align-self: center;
+}
+
+#navbar-right {
+    justify-self: right;
+    margin-right: 40px;
+    grid-column-start: 4;
+    align-self: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    font-family: PRIMETIME, serif;
+    font-size: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+#table-1-section-1 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-filter: blur(7px);
+    filter: blur(7px);
+    position: absolute;
+}
+
+#table-1-section-2 {
+    text-align: center;
+    position: relative;
+}
+
+#logo {
+    z-index: 10;
+    width: 60%;
+    margin-top: 50px;
+}
+
+#twitter-hook {
+    z-index: 10;
+    width: 80%;
+}
+
+#discord-hook {
+    z-index: 10;
+    width: 80%;
+}
+
+#web-hook {
+    z-index: 10;
+    width: 80%;
+}
+
+#hook1 {
+    grid-column-start: 2;
+}
+
+#hook2 {
+    grid-column-start: 4;
+}
+
+#hook3 {
+    grid-column-start: 6;
+}
+
+#hook-wrapper {
+    display: inline-grid;
+    grid-template-columns: 2fr 1fr 0.3fr 1fr 0.3fr 1fr 2fr;
+    grid-template-rows: 100%;
+    margin-top: 10px;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    object-fit: cover;
+}
